@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BidirectionalViewPager">
+        <attr name="orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+    <!--Define the values for the attribute -->
+    <attr name="typeface" format="enum">
+        <enum name="bold" value="0"/>
+        <enum name="regular" value="1"/>
+    </attr>
+
+    <declare-styleable name="CustomFont">
+        <attr name="typeface"/>
+        <attr name="customTextStyle" format="string"/>
+        <attr name="font" format="string"/>
+    </declare-styleable>
+
+
+    <attr name="loginButtonStyle" format="reference"></attr>
+    <attr name="greyBackGroundStyle" format="reference"></attr>
+
+</resources>

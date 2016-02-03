@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shuttle.easyshuttle.appbase.View.NavigationCellView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/containerNavigationItem"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navCellViewHeight"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/navItemImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/retrySettingtextSize"/>
+
+        <TextView
+            android:id="@+id/navItemText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/tabTextSize"
+            android:layout_toRightOf="@+id/navItemImage"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/navigationTextSize"/>
+
+    </RelativeLayout>
+
+
+</com.shuttle.easyshuttle.appbase.View.NavigationCellView>

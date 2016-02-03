@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Common Colors-->
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="blackColor">#000000</color>
+    <color name="lightGray">#DAAA</color>
+    <color name="darkGray">#626262</color>
+    <color name="redColor">#FF0000</color>
+    <color name="dullGray">#e6e6e6</color>
+    <color name="colorPrimary">#7465e2</color>
+    <color name="colorPrimaryDark">#7465e2</color>
+    <color name="colorAccent">#7465e2</color>
+    <!--<color name="colorPrimary">#2a8f0f</color>
+    <color name="colorPrimaryDark">#2a8f0f</color>
+    <color name="colorAccent">#2a8f0f</color>-->
+    <!--toolbar header text color-->
+    <color name="headerTextColor">#FFFFFF</color>
+</resources>

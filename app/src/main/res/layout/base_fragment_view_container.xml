@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+    <FrameLayout
+        android:id="@+id/subFragmentViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ProgressBar
+        android:id="@+id/pbBaseFragmentProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <!--Container to write Error handling views-->
+
+    <include
+        android:id="@+id/containerErrorDisplay"
+        layout="@layout/error_view_retry"/>
+
+    <TextView
+        android:id="@+id/tvNoContentAvailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Content Not Available"
+        android:textAllCaps="false"
+        android:textSize="@dimen/retrySettingtextSize"
+        android:visibility="gone"/>
+
+</FrameLayout>

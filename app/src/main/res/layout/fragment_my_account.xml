@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/defaultAccountTopImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/netflix"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/userTopDataLayout"
+            layout="@layout/myaccount_toplayout"></include>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="?attr/greyBackGroundStyle"
+        android:id="@+id/contentContainer"
+        android:layout_weight="0.6"
+        android:padding="@dimen/loginButtonMargin">
+
+        <Button
+            android:id="@+id/loginButton"
+            style="?attr/loginButtonStyle"
+            android:layout_marginBottom="@dimen/loginButtonMargin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/login"/>
+
+    </FrameLayout>
+
+</LinearLayout>

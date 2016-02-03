@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone">
+
+    <TextView
+        android:id="@+id/tvNetworkError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/networkError"
+        android:textAllCaps="false"
+        android:textSize="@dimen/retrySettingtextSize"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNetworkError"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/retrySettingtextSize"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRetry"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/retrySettigMiddleMargin"
+            android:background="@drawable/retry_setting_buttonselector"
+            android:text="@string/retry"
+            android:textAllCaps="true"
+            android:textColor="@drawable/retry_setting_textselector"
+            android:textSize="@dimen/retrySettingtextSize"/>
+
+
+        <Button
+            android:id="@+id/btnSettings"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/retrySettigMiddleMargin"
+            android:background="@drawable/retry_setting_buttonselector"
+            android:text="@string/settings"
+            android:textAllCaps="true"
+            android:textColor="@drawable/retry_setting_textselector"
+            android:textSize="@dimen/retrySettingtextSize"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Match 48dp default ActionBar height on landscape orientation -->
+    <dimen name="nav_drawer_margin_offset">-16dp</dimen>
+    <dimen name="nav_drawyer_width">230dp</dimen>
+
+    <!--Error Container-->
+    <dimen name="retrySettigMiddleMargin">18dp</dimen>
+    <dimen name="retrySettingtextSize">18sp</dimen>
+
+    <!--Headers Text Sizes-->
+    <dimen name="toolbarHeaderTextSize">16sp</dimen>
+
+    <!--Show case row view-->
+    <dimen name="showCaseTextMarginBottom">55dp</dimen>
+    <dimen name="showCaseTextSize">19sp</dimen>
+</resources>

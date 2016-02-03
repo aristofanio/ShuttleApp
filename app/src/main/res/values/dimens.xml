@@ -1,0 +1,31 @@
+<resources>
+    <!--Navigation Drawyer Width-->
+    <!-- Match 56dp default ActionBar height on portrait orientation -->
+    <dimen name="nav_drawer_margin_offset">-8dp</dimen>
+    <dimen name="nav_drawyer_width">220dp</dimen>
+    <dimen name="titleBarElevation">14.5dp</dimen>
+    <dimen name="navigationTextSize">16sp</dimen>
+    <dimen name="navCellViewHeight">40dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--Error Container-->
+    <dimen name="retrySettigMiddleMargin">18dp</dimen>
+    <dimen name="retrySettingtextSize">18sp</dimen>
+
+    <!--Headers Text Sizes-->
+    <dimen name="toolbarHeaderTextSize">16sp</dimen>
+
+    <!--Show case row view-->
+    <dimen name="showCaseTextMarginBottom">40dp</dimen>
+    <dimen name="showCaseTextSize">19sp</dimen>
+
+    <!--my account login & Signup margins-->
+    <dimen name="loginScreenMargin">10dp</dimen>
+    <dimen name="loginButtonMargin">18dp</dimen>
+    <dimen name="loginTextSize">16sp</dimen>
+    <dimen name="globalTouchPaddinArea">10dp</dimen>
+
+    <!--Home tab bars-->
+    <dimen name="tabTextSize">14sp</dimen>
+
+</resources>

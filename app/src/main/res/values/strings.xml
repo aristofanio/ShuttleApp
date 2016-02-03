@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">ShuttleApp</string>
+    <string name="action_settings">Settings</string>
+    <!--Drawyer Section-->
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+
+    <!--Network Retry & Settings-->
+    <string name="retry">Retry</string>
+    <string name="networkError">Please check your network connection</string>
+    <string name="serverError">Please try after sometime, There might be problem with server</string>
+    <string name="timeoutError">Timeout error</string>
+    <string name="defaultError">There might be some error, Please try after sometime</string>
+
+    <!--Drawyer Side Navigation Items-->
+    <string-array name="navigationMenuItems">
+        <item>@string/bookTicket</item>
+        <item>@string/survey</item>
+        <item>@string/availableOfferList</item>
+        <item>@string/bookingHistory</item>
+        <item>@string/profile</item>
+        <item>@string/feedback</item>
+        <item>@string/settings</item>
+        <item>@string/termscondition</item>
+        <item>@string/aboutUs</item>
+        <item>@string/logout</item>
+    </string-array>
+
+
+    <string name="bookTicket">Book Ticket</string>
+    <string name="survey">Survey</string>
+    <string name="availableOfferList">Offers Available</string>
+    <string name="bookingHistory">Booking History</string>
+    <string name="profile">User Profile</string>
+    <string name="feedback">Feedback</string>
+    <string name="settings">Settings</string>
+    <string name="termscondition">Terms and Conditions</string>
+    <string name="aboutUs">About Us</string>
+    <string name="logout">Logout</string>
+
+
+    <!--Home Tabs-->
+    <string name="myAccount">User Profile</string>
+    <string name="showCase">Showcase</string>
+    <string name="booking">Booking</string>
+
+    <!--Screen Names-->
+    <!--User Login ( My Account Fragment)-->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+
+    <!--Login Screen Resources-->
+    <string name="signIn">Sign in</string>
+    <string name="actionSignInShort">Submit</string>
+    <string name="alreadyMember">Already a member sign in</string>
+    <string name="password">Password</string>
+
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="companyName">Company Name</string>
+    <string name="mobileNo">Mobile No</string>
+    <string name="nickName">Nick Name</string>
+    <string name="otp">OTP</string>
+    <string name="email">Email</string>
+
+
+    <!--Network Response Handling-->
+    <string name="networkUnavailable">Please check your network connection.</string>
+
+
+    <!---->
+    <string name="helvetica_neue_75_bold">helvetica_neue_75_bold</string>
+    <string name="helvetica_neue_65_medium">helvetica_neue_65_medium</string>
+
+</resources>
